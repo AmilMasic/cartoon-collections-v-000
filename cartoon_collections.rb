@@ -16,7 +16,7 @@ end
 def long_planeteer_calls(words)# code an argument here
   # Your code here
   words.select do |word|
-    if word.length <== 4
+    if word.length <= 4
       true
     else
       false
