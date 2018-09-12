@@ -26,11 +26,12 @@ def long_planeteer_calls(words)# code an argument here
 end
 
 def find_the_cheese(strings)# code an argument here
+    cheese_types = ["cheddar", "gouda", "camembert"]
   strings.select do |cheese|
     if cheese == cheese_types[]
     end
   end
   # the array below is here to help
 
-  cheese_types = ["cheddar", "gouda", "camembert"]
+
 end
