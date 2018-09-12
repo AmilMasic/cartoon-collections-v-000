@@ -22,9 +22,7 @@ def long_planeteer_calls(words)# code an argument here
       return words[i]
     end
   end
-  true
-else
-  false
+
 end
 
 def find_the_cheese# code an argument here
