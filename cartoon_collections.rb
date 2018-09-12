@@ -32,10 +32,9 @@ def find_the_cheese(strings)# code an argument here
      # strings.include?(cheese_types)
       cheese_types.any? do |word|
         strings.include?(word)
-        return word
-      # end
+        puts "#{word}"      # end
       end
-    
+
   end
 # end
        # binding.pry
