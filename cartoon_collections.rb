@@ -31,7 +31,6 @@ def find_the_cheese(strings)# code an argument here
     cheese_types.each do |cheese|
       strings.include?(cheese)
       puts cheese
-    end
   end
 end
        # binding.pry
