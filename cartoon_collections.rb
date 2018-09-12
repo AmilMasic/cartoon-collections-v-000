@@ -27,7 +27,10 @@ end
 
 def find_the_cheese(strings)# code an argument here
     cheese_types = ["cheddar", "gouda", "camembert"]
-  strings.include?(cheese_types) ? puts "#{cheese_types[strings]}" : nil
+  if strings.include?(cheese_types) 
+     puts "#{cheese_types[strings]}" 
+     else
+       nil
 
   end
 
