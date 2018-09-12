@@ -9,6 +9,7 @@ end
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
   planeteer_calls.join("!")
+  planeteer_calls.split
 end
 
 def long_planeteer_calls# code an argument here
