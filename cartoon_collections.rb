@@ -15,11 +15,10 @@ end
 
 def long_planeteer_calls(words)# code an argument here
   # Your code here
-  words = []
+  assorted_words = []
   i = 0
   while i < words.length
-    if yield(words[i])
-      return words[i]
+    assorted_words << yield(words[i])
       i += 1
     end
   end
