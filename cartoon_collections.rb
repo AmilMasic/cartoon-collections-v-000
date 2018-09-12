@@ -30,8 +30,8 @@ def find_the_cheese(strings)# code an argument here
     cheese_types = ["cheddar", "gouda", "camembert"]
     value = []
        # binding.pry
-   strings.include?(cheese_types) 
-     
+   strings.include?(cheese_types)
+
    end
 
 
@@ -44,4 +44,4 @@ def find_the_cheese(strings)# code an argument here
   # the array below is here to help
 
 
-end
+# end
