@@ -35,6 +35,6 @@ def find_the_cheese(strings)# code an argument here
   end
 end
        # binding.pry
-   strings.include?(cheese_types)
+   # strings.include?(cheese_types)
 
    # end
