@@ -28,9 +28,10 @@ end
 
 def find_the_cheese(strings)# code an argument here
     cheese_types = ["cheddar", "gouda", "camembert"]
-    strings.include?(cheese_types)
+    empty_arr = []
+    empty_arr << strings.include?(cheese_types)
     # cheese_types.include?(strings)
-      return
+      return empty_arr
   end
 # end
        # binding.pry
