@@ -31,7 +31,7 @@ def find_the_cheese(strings)# code an argument here
     strings.include?(cheese_types)
       puts cheese_types[]
   end
-end
+# end
        # binding.pry
    # strings.include?(cheese_types)
 
