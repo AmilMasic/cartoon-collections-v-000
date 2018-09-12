@@ -21,6 +21,10 @@ def long_planeteer_calls(words)# code an argument here
     assorted_words << yield(words[i])
       i += 1
     end
+    if assorted_words.include?(false)
+      false
+    else 
+      true
   end
 
 end
