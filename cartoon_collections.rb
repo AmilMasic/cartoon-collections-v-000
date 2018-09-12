@@ -37,4 +37,4 @@ end
        # binding.pry
    strings.include?(cheese_types)
 
-   end
+   # end
