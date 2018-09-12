@@ -15,17 +15,12 @@ end
 
 def long_planeteer_calls(words)# code an argument here
   # Your code here
-  assorted_words = []
-  i = 0
-  while i < words.length
-    assorted_words << yield(words[i])
-      i += 1
-    end
-    if assorted_words.include?(false)
-      false
-    else 
+  words.select do |word|
+    if word.length <== 4
       true
-  end
+    else
+      false
+    end
 
 end
 
