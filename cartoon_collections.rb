@@ -15,6 +15,13 @@ end
 
 def long_planeteer_calls(words)# code an argument here
   # Your code here
+  words = []
+  i = 0
+  while i < words.length
+    if yield(words[i])
+      return words[i]
+  end
+  
 end
 
 def find_the_cheese# code an argument here
