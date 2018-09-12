@@ -15,7 +15,7 @@ end
 
 def long_planeteer_calls(words)# code an argument here
   # Your code here
-  words.detect do |word|
+  words.match do |word|
     if word.length <= 4
       false
     else
