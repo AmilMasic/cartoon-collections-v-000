@@ -20,6 +20,7 @@ def long_planeteer_calls(words)# code an argument here
   while i < words.length
     if yield(words[i])
       return words[i]
+    end
   end
   words
 end
